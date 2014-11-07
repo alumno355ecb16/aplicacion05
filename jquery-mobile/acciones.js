@@ -21,5 +21,5 @@ $(document).ready(function(e) {
    },false);//ready device
 },false);//document
 function escribehistoria(accion) {
-	$('#eHistoria').append('<li'+accion+'</li>');
+	$('#eHistoria').append('<li>'+accion+'</li>');
 }
